@@ -47,7 +47,7 @@ class RenderPokemon {
             const ablityListDOM = this.createAbilityList(pokemon.stats);
             let output = `
     <div class="card card__pokemon m-2">
-      <h4 class="card-title mt-2"><span class="pokemon__id pe-2">#${pokemon.id}</span>${pokemon.name}</h4>
+      <h4 class="card-title mt-2"><span class="pokemon__id me-2">#${pokemon.id}</span>${pokemon.name}</h4>
       <img src=${pokemon.image} class="pokemon__img card-img-top" alt=${pokemon.name}>
       <div class="card-body">
         <ul class="list-group mt-2">
