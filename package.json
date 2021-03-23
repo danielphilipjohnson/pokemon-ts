@@ -1,0 +1,25 @@
+{
+  "name": "pokemon-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+
+  "dependencies": {
+    "gh-pages": "^3.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielphilipjohnson/pokemon-ts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielphilipjohnson/pokemon-ts/issues"
+  },
+  "homepage": "https://github.com/danielphilipjohnson/pokemon-ts#readme"
+}
